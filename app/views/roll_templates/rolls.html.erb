@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1><%= params.fetch("d1") %>d<%=params.fetch("d2")%></h1>
+
+    <ul>
+      <% @rolls.each do |a_roll|%>
+        <li>
+        <%= a_roll %>
+        </li>
+      <% end %>
+    </ul>
+  </body>
+</html>
